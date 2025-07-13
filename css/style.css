@@ -23,7 +23,7 @@ body {
   background-image: url('../img/default.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256');
   background-size: cover;
   border-radius: 15%;
-	box-shadow: 0 0 20px #000;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
 }
 
 .track-name {
