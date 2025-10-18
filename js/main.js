@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{
+		name: "Niña de mis besos",
+		artist: "Octubre 2025 (a)",
+		image: "img/niña-de-mis-besos.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Niña de mis besos.mp3"
+	},
+	{	
+		name: "No sé",
+    artist: "Octubre 2025 (b)",
+    image: "img/no-se.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+    path: "music/No sé.mp3"
+  },
   {
     name: "Amor inolvidable",
     artist: "Septiembre 2025 (a)",
