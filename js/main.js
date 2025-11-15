@@ -22,6 +22,18 @@ let curr_track = document.createElement('audio');
 // Define las pistas que se deben reproducir
 let track_list = [
 	{
+		name: "Maravillosa y lejana",
+		artist: "Noviembre 2025 (a)",
+		image: "img/maravillosa-y-lejana.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Maravillosa y lejana.mp3"
+	},
+	{
+		name: "Yo te quería a ti",
+		artist: "Noviembre 2025 (b)",
+		image: "img/yo-te-queria-a-ti.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Yo te queria a ti.mp3"
+	},
+	{
 		name: "Niña de mis besos",
 		artist: "Octubre 2025 (a)",
 		image: "img/niña-de-mis-besos.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
@@ -74,6 +86,12 @@ let track_list = [
     artist: "Junio 2025",
     image: "img/solo-a-ti.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
     path: "music/Solo a ti.mp3"
+  },
+  {
+    name: "I Want To Know What Love Is",
+    artist: "Foreigner",
+    image: "img/I-Want-To-Know-What-Love-Is.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+    path: "music/I Want To Know What Love Is.mp3"
   },
 ];
 
