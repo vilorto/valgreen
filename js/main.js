@@ -28,10 +28,10 @@ let track_list = [
 		path: "music/Maravillosa y lejana.mp3"
 	},
 	{
-		name: "Yo te quería a ti",
+		name: "Desde dentro",
 		artist: "Noviembre 2025 (b)",
-		image: "img/yo-te-queria-a-ti.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
-		path: "music/Yo te queria a ti.mp3"
+		image: "img/desde-dentro.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Desde dentro.mp3"
 	},
 	{
 		name: "Niña de mis besos",
