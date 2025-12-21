@@ -22,6 +22,24 @@ let curr_track = document.createElement('audio');
 // Define las pistas que se deben reproducir
 let track_list = [
 	{
+		name: "Feliz Navidad",
+		artist: "Diciembre 2025 (a)",
+		image: "img/feliz-navidad.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Feliz Navidad.mp3"
+	},
+	{
+		name: "Aquí estaré",
+		artist: "Diciembre 2025 (b)",
+		image: "img/aqui-estare.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Aquí estaré.mp3"
+	},
+	{
+		name: "Te quise de verdad",
+		artist: "Diciembre 2025 (b)",
+		image: "img/te-quise-de-verdad.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Te quise de verdad.mp3"
+	},
+	{
 		name: "Maravillosa y lejana",
 		artist: "Noviembre 2025 (a)",
 		image: "img/maravillosa-y-lejana.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
