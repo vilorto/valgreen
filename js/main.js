@@ -34,12 +34,6 @@ let track_list = [
 		path: "music/Aquí estaré.mp3"
 	},
 	{
-		name: "Te quise de verdad",
-		artist: "Diciembre 2025 (b)",
-		image: "img/te-quise-de-verdad.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
-		path: "music/Te quise de verdad.mp3"
-	},
-	{
 		name: "Maravillosa y lejana",
 		artist: "Noviembre 2025 (a)",
 		image: "img/maravillosa-y-lejana.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
