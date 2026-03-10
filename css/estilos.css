@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFD0BB;
+}
+
+.contenedor {
+	margin: 10px 0;
+}
+
+.reproductor audio {
+	width: 380px;
+	margin: 10px 0;
+}
+
+.contenedor,
+.nubes,
+.cdroms,
+.reproductor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ /* gap: 10px;*/
+}
