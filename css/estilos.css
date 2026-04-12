@@ -8,14 +8,23 @@ body {
 }
 
 .contenedor {
-	margin: 10px 0;
+	margin: 10px 0 5px 0;
 }
 
-.reproductor audio {
+audio {
 	width: 380px;
-	margin: 10px 0;
+	height: 40px;
+	margin: 0 0 5px 0;
 }
 
+audio::-webkit-media-controls-enclosure {
+	border-radius: 0px;
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: #777;
+}
+	
 .contenedor,
 .nubes,
 .cdroms,
@@ -23,5 +32,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
- /* gap: 10px;*/
+}
+
+.cdroms img {
+	margin: 5px 0 5px 0;
 }
