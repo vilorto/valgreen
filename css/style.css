@@ -1,0 +1,161 @@
+body {
+	background: linear-gradient(to right, #5f9ea0, #db7093);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.contenido {
+	position: relative; /* Esencial para que el absolute tome este recuadro como límite */
+	
+  /* display: inline-block; O el tamaño que necesites para tu diseño */
+	width: 393px;
+	
+	margin: 10px auto;
+	min-height: 50dvh;
+}
+
+#controls {
+	border: 1px #eee solid;
+	border-radius: 25px;
+	padding: 10px;
+	background: white;
+	opacity: 0.8;
+}
+
+.timer {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #e618a1;
+	font-family: monospace, serif;
+	font-size: 0.7em;
+}
+
+.volumen {
+	margin: 15px auto;
+	color: #0d4b9c;
+}
+
+.volumeIcon {
+	width: 20px;
+	height: 20px;
+	opacity: 0.8;
+}
+
+#progress {
+	width: 80%;
+  height: 6px;
+	margin: 10px;
+}
+
+/* Modificar la apariencia del control deslizante */
+#progress, 
+.volumen_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+
+/* Modificar la apariencia del control deslizante thumb */
+#progress::-webkit-slider-thumb, 
+.volumen::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+}
+
+.buttons-mm {
+  display: flex;
+  justify-content: center;
+} 
+
+.playpauseIcon {
+	width: 90px;
+	height: 90px;
+  margin: 0 30px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+
+.backwardIcon, 
+.forwardIcon {
+	width: 60px;
+	height: 60px;
+	margin-top: 20px;
+  opacity: 0.8;
+}
+
+@media(hover: hover) and (pointer: fine) {
+	#progress:hover, 
+	.volumen:hover,
+	.playpauseIcon:hover, 
+	.backwardIcon:hover, 
+	.forwardIcon:hover {
+		opacity: 0.9;
+		filter: brightness(0.9);
+	}
+}
+	
+#playList {
+	background: white;
+	text-align: left;
+	opacity: 0.8;
+	color: #db0f72;
+}
+
+li {
+	padding: 10px;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #e84393;
+}
+
+li.active {
+	color: #770952;
+	font-weight: 600;
+}
+
+/* Marquesina simple y fluida en CSS */
+.marquesina-contenedor {
+  width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+  overflow: hidden; /* Oculta el contenido que sale del contenedor */
+  white-space: nowrap; /* Evita que el texto salte a la siguiente línea */
+  box-sizing: border-box;
+}
+
+.marquesina-contenido {
+  display: inline-block;
+  padding-left: 100%; /* Empuja el texto fuera de la vista inicial */
+  animation: desplazamiento 10s linear infinite;
+	color: #5e094b;
+	font-weight: 600;
+	opacity: 0.8;
+}
+
+@keyframes desplazamiento {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+} /* Fin Marquesina */
+
+p {
+	margin: 15px;
+	font-size: 2em;
+	font-weight: 600;
+	color: #e84393;
+	text-shadow: 1px 1px 2px #666;
+}

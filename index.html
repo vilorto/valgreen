@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>&#128148; Valgreen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="contenido">
+		<div id="controls">
+		<audio id="player" ontimeupdate="updateProgress();">
+			<source id="source"> 
+			Audio no soportado 
+		</audio>
+			<div class="volumen">
+				<img class="volumeIcon" src="svg/volume-down.svg" alt="">
+				<input type="range" name="volumen" id="volumen" min="0" max="1" step="0.01" value="0.75">
+				<img class="volumeIcon" src="svg/volume-up.svg" alt="">
+			</div>
+		<div class="buttons-mm">
+			<img class="backwardIcon" onclick="prevMusic();" id="icono" src="svg/step-backward.svg" alt="" title="">
+			<img class="playpauseIcon" onclick="togglePlay();" id="iconPlay" src="svg/play.svg" alt="">
+			<img class="forwardIcon" onclick="nextMusic();" id="icono" src="svg/step-forward.svg" alt="">
+		</div>
+			<div class="marquesina-contenedor">
+				<div class="marquesina-contenido">
+					&#9835; <span id="currentPlay"></span> &#9835;
+				</div>
+			</div>
+			<div class="timer">
+				<span id="current-time">00:00</span>
+				<progress id="progress" value="0" max="100" ></progress>
+				<span id="total-duration">00:00</span>
+			</div>
+			<p>&#128148; 2025</p>
+			<div id="playList"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
