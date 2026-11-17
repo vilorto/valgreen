@@ -9,7 +9,7 @@ body {
 	position: relative; /* Esencial para que el absolute tome este recuadro como límite */
 	
   /* display: inline-block; O el tamaño que necesites para tu diseño */
-	width: 80%;
+	width: 393px;
 	
 	margin: 10px auto;
 	min-height: 50dvh;
@@ -170,14 +170,14 @@ p {
 /* 2. Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
 	.contenido {
-		width: 75%;
+		width: 80%;
 	}
 }
 
 /* 3. Escritorio */
 @media (min-width: 1024px) {
 	.contenido {
-		width: 50%;
+		width: 60%;
 	}
 }
 
