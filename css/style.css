@@ -9,7 +9,7 @@ body {
 	position: relative; /* Esencial para que el absolute tome este recuadro como límite */
 	
   /* display: inline-block; O el tamaño que necesites para tu diseño */
-	width: 393px;
+	width: 80%;
 	
 	margin: 10px auto;
 	min-height: 50dvh;
