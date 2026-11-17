@@ -161,23 +161,22 @@ p {
 }
 
 /* 1. Móviles (estilos base o max-width) */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.contenido {
 		width: 100%;
 	}
 }
 
 /* 2. Tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 	.contenido {
-		width: 80%;
+		width: 75%;
 	}
 }
 
 /* 3. Escritorio */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	.contenido {
-		width: 60%;
+		width: 50%;
 	}
 }
-
